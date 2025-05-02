@@ -1,0 +1,20 @@
+.opcao__troca {
+    text-align: center;
+    margin: 5% 0;
+}
+
+.opcao__troca__tipo {
+    padding: 0.5em 0;
+    font-size: 1em;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+
+}
+
+.botao {
+    width: 30%;
+}

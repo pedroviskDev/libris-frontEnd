@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/busca.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="#"><img src="/assets/arrow_back.svg" alt="Seta apontada para esquerda"></a>
+        <img src="assets/logo.svg" alt="livro roxo e texto libres ao lado">
+    </header>
+    <main class="detalhes__livro">
+       <section class="card__livro">
+            <h2 class="card__livro__titulo">Descrição</h2>
+            <div class="card__livro__dados">
+                <img src="assets/livroExemplo.svg" alt="" class="capa__livro">
+                <ul class="lista__filtro">
+                    <li class="lista__filtro__item"><strong>Título:</strong>The Stand</li>
+                    <li class="lista__filtro__item"><strong>Autor:</strong>Stephen King</li>
+                    <li class="lista__filtro__item"><strong>Ano:</strong>2013</li>
+                    <li class="lista__filtro__item"><strong>Gênero:</strong>Ficção, Horror</li>
+                </ul>
+            </div>
+            <div class="card__livro__sinopse">
+                <p class="card__livro__sinopse__texto" id="card__livro__sinopse__texto">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                <button class="mais-detalhes" onclick="toggleDescricao()" id="btnDescricao">Mais detalhes...</button>
+            </div>
+            
+       </section>
+       <p class="tipo-troca">Disponível somente para troca temporária</p>
+
+       <div class="botoes">
+        <button class="btn-solicitar-troca botao">Solicitar Troca</button>
+        <button class="btn-adicionar-favorito botao">Adicionar à lista de desejos</button>
+       </div>
+
+       
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
