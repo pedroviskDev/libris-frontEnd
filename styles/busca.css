@@ -77,9 +77,10 @@ body {
     border: none;
     font-weight: bold;
     padding: 0.5em 0 1em 0;
-    background-color: none;
+    background-color: var(--cor-cinza);
     width: 100%;
     text-align: right;
+    color: var(--cor-preto);
 }
 
 .tipo-troca {
@@ -112,6 +113,7 @@ body {
 
 button {
     cursor: pointer;
+
 }
 
 
